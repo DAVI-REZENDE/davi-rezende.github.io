@@ -1,0 +1,18 @@
+img.banner {
+  width: 100vw;
+  height: 45vh;
+  object-fit: cover;
+}
+
+main {
+  padding: 0 86px 86px 86px;
+}
+
+main .content h1 {
+  margin-top: 52px;
+}
+
+main .content p {
+  margin-top: 44px;
+  margin-left: 5px;
+}

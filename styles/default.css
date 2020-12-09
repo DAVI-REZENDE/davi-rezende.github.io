@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --bg: #222222;
+  --text: #DDDDDD;
+  --card: #3A3A3A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  color: var(--text)
+}
+
+body {
+  overflow-x: hidden;
+  background: var(--bg);
+  min-width: 100vw;
+  min-height: 100vh;
+}
