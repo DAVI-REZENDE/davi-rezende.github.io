@@ -16,7 +16,7 @@ main {
 }
 
 main .profile {
-  width: 300px;
+  min-width: 300px;
 }
 
 main .profile img {
@@ -196,5 +196,7 @@ main .items .card-item span {
 }
 
 @media (max-width: 340px) {
-  
+  main .profile {
+    min-width: 100%;
+  }
 }
