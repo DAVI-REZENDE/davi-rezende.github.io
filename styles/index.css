@@ -15,10 +15,6 @@ main {
   justify-content: space-between;
 }
 
-main .profile {
-  min-width: 300px;
-}
-
 main .profile img {
   border-radius: 50%;
   width: 80%;
@@ -152,4 +148,49 @@ main .items .card-item span {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+@media (max-width: 966px) {
+  main {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  main .items {
+    margin: 0;
+  }
+
+  main .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  main .profile img {
+    width: 245px;
+  }
+
+  main .profile h1, main .profile p {
+    text-align: center;
+  }
+
+  .container-modal .modal {
+    width: 90%;
+  }
+}
+
+@media (max-width: 608px) {
+  main {
+    padding: 32px;
+  }
+
+  main .items {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 340px) {
+
 }
