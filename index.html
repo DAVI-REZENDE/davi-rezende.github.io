@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Davi Rezende | My CV</title>
+  <script src="https://kit.fontawesome.com/7b8575014d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles/default.css">
   <link rel="stylesheet" href="styles/index.css">
 </head>
@@ -28,22 +29,22 @@
 
     <section class="items">
 
-      <a class="card-item" href="sobreMim.html">
+      <a id="sobre-mim" class="card-item">
         <img src="assets/sobre_mim.jpg" alt="sobre mim">
         <span>Sobre Mim</span>
       </a>
 
-      <a class="card-item">
+      <a id="projetos" class="card-item">
         <img src="assets/projetos.jpg" alt="projetos">
         <span>Projetos</span>
       </a>
 
-      <a class="card-item">
+      <a id="habilidades" class="card-item">
         <img src="assets/habilidades.jpg" alt="habilidades">
         <span>Habilidades</span>
       </a>
 
-      <a class="card-item" href="">
+      <a id="cursos" class="card-item">
         <img src="assets/cursos.jpg" alt="cursos">
         <span>Cursos Realizados</span>
       </a>
@@ -51,5 +52,43 @@
     </section>
   </main>
 
+  <div id="sobre-mim" class="container-modal hidden">
+    <div class="modal">
+      <img src="assets/sobre_mim.jpg" alt="">
+      <button class="close-modal">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="projetos" class="container-modal hidden">
+    <div class="modal">
+      <img src="assets/projetos.jpg" alt="">
+      <button class="close-modal">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="habilidades" class="container-modal hidden">
+    <div class="modal">
+      <img src="assets/habilidades.jpg" alt="">
+      <button class="close-modal">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="cursos" class="container-modal hidden">
+    <div class="modal">
+      <img src="assets/cursos.jpg" alt="">
+      <button class="close-modal">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+
+  <script src="scripts/index.js"></script>
 </body>
 </html>
