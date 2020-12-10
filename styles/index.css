@@ -15,6 +15,10 @@ main {
   justify-content: space-between;
 }
 
+main .profile {
+  width: 300px;
+}
+
 main .profile img {
   border-radius: 50%;
   width: 80%;
@@ -192,5 +196,5 @@ main .items .card-item span {
 }
 
 @media (max-width: 340px) {
-
+  
 }
