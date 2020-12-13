@@ -77,12 +77,13 @@ main .items .card-item span {
   width: 100vw;
   height: 100vh;
   backdrop-filter: blur(15px);
+  -moz-backdrop-filter: blur(15px);
 
   display: none;
   justify-content: center;
   align-items: flex-end;
 
-  animation: showModal .2s ease-in;
+  animation: showModal .2s;
 }
 
 .container-modal.show {
@@ -99,7 +100,7 @@ main .items .card-item span {
 
   position: relative;
 
-  animation: showModalTarget .2s ease-out;
+  animation: showModalTarget .3s;
 }
 
 .container-modal .modal img {
@@ -135,10 +136,12 @@ main .items .card-item span {
 @keyframes showModal {
   0% {
     backdrop-filter: blur(0);
+   -moz-backdrop-filter: blur(0);
   }
 
   100% {
     backdrop-filter: blur(15px);
+    -moz-backdrop-filter: blur(15px);
   }
 }
 
