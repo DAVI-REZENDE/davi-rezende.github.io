@@ -1,5 +1,5 @@
 .bg {
-  width: 100vw;
+  width: 100%;
   height: 35vh;
   background: url('../assets/bg.jpg');
   background-size: cover;
@@ -8,8 +8,8 @@
 }
 
 main {
-  padding: 74px;
-  padding-top: 32px;
+  /* padding: 74px; */
+  padding: 32px;
 
   display: flex;
   justify-content: space-between;
@@ -39,7 +39,34 @@ main .items {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
-  margin-left: 37px;
+  flex: 1;
+}
+#sobre-mim .image,
+#projetos .image,
+#habilidades .image,
+#cursos .image {
+  background-position: 80%;
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  border-radius: 37px 37px 0 0;
+  cursor: initial;
+}
+
+#sobre-mim .image {
+  background-image: url('../assets/sobre_mim.jpg');
+}
+
+#projetos .image {
+  background-image: url('../assets/projetos.jpg');
+}
+
+#habilidades .image {
+  background-image: url('../assets/habilidades.jpg');
+}
+
+#cursos .image {
+  background-image: url('../assets/cursos.jpg');
 }
 
 main .items .card-item {
@@ -49,7 +76,7 @@ main .items .card-item {
   background: var(--card);
   border-radius: 37px;
 
-  max-height: 270px;
+  min-height: 230px;
 
   cursor: pointer;
 
@@ -94,6 +121,9 @@ main .items .card-item span {
   width: 60%;
   height: 90%;
 
+  display: flex;
+  flex-direction: column;
+
   background-color: var(--bg-modal);
 
   border-radius: 40px 40px 0 0;
@@ -101,6 +131,7 @@ main .items .card-item span {
   position: relative;
 
   animation: showModalTarget .3s;
+
 }
 
 .container-modal .modal img {
@@ -131,6 +162,40 @@ main .items .card-item span {
 
   cursor: pointer;
   outline: none;
+}
+
+.container-modal .modal .content {
+  width: 100%;
+  flex: 1;
+  padding: 20px;
+  overflow: auto!important;
+  /* background: #871; */
+
+}
+
+.container-modal .modal .content::-webkit-scrollbar {
+  width: 10px;
+  background: #333;
+}
+
+.container-modal .modal .content::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #3f3f3f;
+
+}
+
+.container-modal .modal strong {
+  font-size: 32px;
+  
+}
+
+.container-modal .modal .content .part {
+  margin: 20px 0 0  25px ;
+}
+
+.container-modal .modal .content .part span {
+  font-size: 23px;
+  font-weight: 500;
 }
 
 @keyframes showModal {

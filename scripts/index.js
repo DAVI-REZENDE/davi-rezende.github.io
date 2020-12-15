@@ -1,4 +1,5 @@
 const cards = document.querySelectorAll('.card-item')
+const body = document.querySelector('body')
 
 cards.forEach(item => {
   item.onclick = showModal
@@ -30,10 +31,12 @@ function afterShow(modal) {
   const close = modalCurrent.querySelector('.close-modal')
 
   close.onclick = () => {closeModal(modalCurrent)}
+  body.style.overflow = 'hidden';
 }
 
 function closeModal(modal) {
 
   modal.classList.remove('show')
+  body.style.overflow = 'auto';
 
 }
