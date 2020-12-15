@@ -17,8 +17,18 @@
 }
 
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   background: var(--bg);
   min-width: 100vw;
   min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: #3f3f3f;
 }
