@@ -34,3 +34,8 @@ body {
   width: 10px;
   background: #3f3f3f;
 }
+
+.subtitle {
+  font-size: 16px!important;
+  font-weight: normal;
+}

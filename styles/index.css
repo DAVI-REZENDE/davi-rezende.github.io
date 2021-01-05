@@ -282,6 +282,21 @@ main .items .card-item span {
   transform: translateY(-5px);
 }
 
+.no-text {
+  justify-content: center;
+  align-items: center;
+}
+
+.no-text strong {
+  font-size: 24px!important;
+  text-align: center;
+}
+
+.no-text img {
+  width: 70px!important;
+  border-radius: 0!important;
+}
+
 .view-ogh {
   margin-top: 200px;
   padding: 8px;
