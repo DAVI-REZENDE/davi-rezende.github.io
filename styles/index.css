@@ -35,6 +35,12 @@ main .profile p {
   margin-top: 32px;
 }
 
+main .profile .text span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 main .items {
   display: grid;
   grid-template-columns: 1fr 1fr;
