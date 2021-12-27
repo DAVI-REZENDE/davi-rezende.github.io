@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "./static/js/main.50c0a1f7.js",
+    "static/media/netflix-preview.png": "./static/media/netflix-preview.c1bf8ef4930e155494f5.png",
+    "static/media/discord-preview.png": "./static/media/discord-preview.81f95fd67aea8a6dba88.png",
+    "static/media/dropbox-preview.png": "./static/media/dropbox-preview.350e2754744f4d72facc.png",
+    "static/media/github-preview.png": "./static/media/github-preview.7837f701fc9c06fc98cd.png",
+    "static/media/resume.pdf": "./static/media/resume.a110f0652bcf77b6dacc.pdf",
+    "static/media/profile.jpeg": "./static/media/profile.232d87443b58609b62e7.jpeg",
+    "static/media/structure.png": "./static/media/structure.4127b36258b5e9dc8f88.png",
+    "static/media/git.png": "./static/media/git.794624021186ff213804.png",
+    "static/media/css-3.png": "./static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/logo.svg": "./static/media/logo.d014bd48a3ee25974597ccedc28827e1.svg",
+    "static/media/typescript.png": "./static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/js.png": "./static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "./index.html",
+    "static/media/background-up.svg": "./static/media/background-up.9c87d36fa72e443976f3f170ba74cb3e.svg",
+    "main.50c0a1f7.js.map": "./static/js/main.50c0a1f7.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.50c0a1f7.js"
+  ]
+}
