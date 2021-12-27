@@ -79,7 +79,7 @@ export function Home() {
         <SideLeft>
           <span>Developer front-end</span>
           <h1>Davi Rezende</h1>
-          <p>Always learning. Attentive to details, always looking for the best results. I am a person determined to carry out what was asked of me, always giving my best in each task.</p>
+          <p>I chose the front-end because I like to produce beautiful interfaces that are nice to look at, I'm focused on the ReactJS library to develop, but I can quickly learn new ways to develop</p>
           <DownloadCurriculum href={Resume} download>
             Download Resume
           </DownloadCurriculum>
@@ -115,7 +115,7 @@ export function Home() {
             <h3>About</h3>
           </AboutMe>
           <strong>Know a little more about me</strong>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Always learning new ways to develop. Attentive to details, always looking for the best results. I am a person determined to fulfill what was asked of me, always giving my best in every task, I am 16 years old and have studied programming since I was 12 years old, progressing more every day to be ready for the job market.</p>
         </Details>
 
         <img className='bg_bottom' src={Background} />
