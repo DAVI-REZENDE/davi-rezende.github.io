@@ -3,23 +3,18 @@ import { Player } from '@lottiefiles/react-lottie-player';
 import { Cpu, GitHub, Smartphone, Linkedin, AtSign } from 'react-feather';
 
 import ProgrammingAnimation from '../../assets/programming.json'
-import logoSvg from '../../assets/logo.svg'
 import Background from '../../assets/background-up.svg'
 import ProfileImage from '../../assets/profile.jpeg'
 import Resume from '../../assets/resume.pdf'
 
 import { 
-  ModalMenu,
   Container,
-  Header,
-  Menu,
   Main,
   SideLeft,
   DownloadCurriculum,
   SideRight,
   About,
   Profile,
-  Icons,
   Details,
   AboutMe,
   Skills,
@@ -38,6 +33,7 @@ import {
 
 import { skills } from '../../data/skills';
 import { projects } from '../../data/projects';
+import { Navbar } from '../../components/Navbar';
 
 
 
@@ -45,35 +41,11 @@ export function Home() {
 
   const [activeMenu, setActiveMenu] = useState(false)
 
-  function handleToggleMenu() {
-    setActiveMenu(oldState => !oldState)
-  }
-
   return (
     <Container active={activeMenu}>
 
-      <ModalMenu active={activeMenu}>
-        <a onClick={handleToggleMenu} href="#about" className="menu-item">About</a>
-        <a onClick={handleToggleMenu} href="#skills" className="menu-item">Skills</a>
-        <a onClick={handleToggleMenu} href="#projects" className="menu-item">Projects</a>
-        <a onClick={handleToggleMenu} href="#contact" className="menu-item">Contact</a>
-      </ModalMenu>
+      <Navbar setActiveMenu={setActiveMenu} activeMenu={activeMenu} />
 
-      <Header>
-        <img src={logoSvg} />
-
-        <Menu>
-            <button onClick={handleToggleMenu} className="menu-button">
-              <span className="row r-top" />
-              <span className="row r-center" />
-              <span className="row r-bottom" />
-            </button>
-            <a href="#about" className="menu-item">About</a>
-            <a href="#skills" className="menu-item">Skills</a>
-            <a href="#projects" className="menu-item">Projects</a>
-            <a href="#contact" className="menu-item">Contact</a>
-        </Menu>
-      </Header>
 
       <Main>
         <SideLeft>
@@ -220,10 +192,9 @@ export function Home() {
       </Contact>
 
       <Footer>
-        <span>&copy; Davi Rezende - 2021</span>
+        <span>&copy; Davi Rezende - 2022</span>
         <span><AtSign size={16} color='#A8B0B7' /> daviresendes12@gmail.com</span>
       </Footer>
-
     </Container>
   );
 };
