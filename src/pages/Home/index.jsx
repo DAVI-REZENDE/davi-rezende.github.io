@@ -35,8 +35,6 @@ import { skills } from '../../data/skills';
 import { projects } from '../../data/projects';
 import { Navbar } from '../../components/Navbar';
 
-
-
 export function Home() {
 
   const [activeMenu, setActiveMenu] = useState(false)

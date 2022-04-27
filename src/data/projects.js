@@ -101,4 +101,34 @@ export const projects = [
       },
     ]
   },
+  {
+    id: '5',
+    image: 'https://github.com/DAVI-REZENDE/reactjs-projects/blob/master/previews/blog-jamstack.png?raw=true',
+    title: 'Blog (JAMStack)',
+    description: 'This is a JAMStack project that uses Next.js and GraphQL to consume the GraphCMS API, styled by the tailwind library. GraphQL queries were generated automatically by lib codegen',
+    github_link: 'https://github.com/DAVI-REZENDE/reactjs-projects/tree/master/jamstack',
+    // deploy_link: 'https://discordcloneinterface.netlify.app/',
+    tags: [
+      {
+        id: '1',
+        name: 'ReactJS',
+      },
+      {
+        id: '2',
+        name: 'Next.js',
+      },
+      {
+        id: '3',
+        name: 'TypeScript',
+      },
+      {
+        id: '4',
+        name: 'GraphQL',
+      },
+      {
+        id: '5',
+        name: 'TailwindCSS',
+      },
+    ]
+  },
 ]

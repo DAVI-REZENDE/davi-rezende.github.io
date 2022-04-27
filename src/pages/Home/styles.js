@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   height: 100vh;
   overflow: ${({active}) => active ? 'hidden' : 'auto'};
+  scroll-behavior: smooth;
 `;
 
 export const Main = styled.main`

@@ -1,4 +1,3 @@
-import { Link } from 'react-scroll'
 import logoSvg from '../../assets/logo.svg'
 
 import {
