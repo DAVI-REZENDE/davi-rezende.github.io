@@ -25,7 +25,7 @@ import {
   Loaded,
   Projects,
   ProjectsTitle,
-  ProjectsGrid,
+  ProjectsContent,
   Project,
   Contact,
   Footer
@@ -118,10 +118,8 @@ export function Home() {
           <h3>Projects</h3>
         </ProjectsTitle>
 
-        <ProjectsGrid>
+        <ProjectsContent>
           {projects.map(project => {
-
-            let isHover = false
 
             return (
               <Project key={project.id} >
@@ -150,7 +148,7 @@ export function Home() {
               </Project>
             )
           })}
-        </ProjectsGrid>
+        </ProjectsContent>
       </Projects>
 
       <Contact id="contact">

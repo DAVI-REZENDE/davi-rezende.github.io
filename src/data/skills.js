@@ -45,5 +45,21 @@ export const skills = [
     rate: 60,
     icon: require('../assets/git.png'),
     color: '#FFE6E2'
-  }
+  },
+
+  {
+    id: '7',
+    name: 'Next.js',
+    rate: 40,
+    icon: require('../assets/nextjs.png'),
+    color: '#FFFFFF'
+  },
+
+  {
+    id: '8',
+    name: 'React Native',
+    rate: 50,
+    icon: require('../assets/structure.png'),
+    color: '#4DD0E1'
+  },
 ]

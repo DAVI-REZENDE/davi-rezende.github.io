@@ -319,13 +319,12 @@ export const ProjectsTitle = styled.div`
   color: #fff;
 `;
 
-export const ProjectsGrid = styled.div`
+export const ProjectsContent = styled.div`
   margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
-
 
 `;
 
@@ -337,6 +336,8 @@ export const Project = styled.div`
 
   display: flex;
   flex-direction: column;
+
+  max-width: 340px;
 
   &::before {
     content: '';
@@ -368,17 +369,25 @@ export const Project = styled.div`
   }
 
   .tags {
-    margin-top: 8px;
+    margin: 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
 
     span {
-      padding: 2px 4px;
+      /* padding: 2px 4px;
       border: 1px solid #86EBED;
       border-radius: 16px;
       color: #86EBED;
       font-size: 12px;
       text-transform: uppercase;
       line-height: 40px;
-      margin-right: 8px;
+      height: 40px; */
+      background-color: #86EBED;
+      border-radius: 20px;
+      padding: 2px 4px;
+      font-weight: 600;
+      color: #2B3443;
     }
   }
 
